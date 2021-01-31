@@ -33396,6 +33396,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 824621056}
     m_Modifications:
+    - target: {fileID: 8525955200145196122, guid: 474b641e11680f84dadc6203f01b3290, type: 3}
+      propertyPath: invest
+      value: 
+      objectReference: {fileID: 557188207}
     - target: {fileID: 9057103049265757366, guid: 474b641e11680f84dadc6203f01b3290, type: 3}
       propertyPath: m_Name
       value: AmountOfResources
