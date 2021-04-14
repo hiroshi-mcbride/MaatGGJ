@@ -9,13 +9,17 @@ public class MouseSensitivitySetter : MonoBehaviour
     private void Awake()
     {
         slider = GetComponent<Slider>();
-    }
-    private void OnEnable()
-    {
-        
+        if (PlayerPrefs.HasKey("Mouse Sensitivity"))
+        {
+            slider.value = PlayerPrefs.GetFloat("Mouse Sensitivity");
+        }
     }
     public void SetSensitivity()
     {
-
+        PlayerPrefs.SetFloat("Mouse Sensitivity", slider.value);
+        if (PlayerLook.Instance!=null)
+        {
+            EventManager.RaiseEvent(EventType.SENSITIVITY_CHANGED);
+        }
     }
 }

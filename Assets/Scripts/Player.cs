@@ -64,8 +64,6 @@ public class Player : MonoBehaviour
 			Interact();
 		}
 
-		Cursor.lockState = CursorLockMode.Locked;
-
 		//make character model rotate with the camera
 		var rot = vCam.transform.rotation;
 		rot.x = 0;

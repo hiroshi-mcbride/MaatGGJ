@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
 
 	public ResourceManager rm;
 	public Player player;
+	public GameObject pauseMenu;
 
 	private void Awake()
     {
@@ -39,10 +40,43 @@ public class GameManager : MonoBehaviour
 		//StartCoroutine(SkipLevel1());
 	}
 
-	IEnumerator SkipLevel1()
+    private void Update()
+    {
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			PauseGame();
+		}
+	}
+
+	public void PauseGame()
+    {
+		if (!pauseMenu.activeInHierarchy)
+		{
+			Time.timeScale = 0.0f;
+			pauseMenu.SetActive(true);
+			Cursor.lockState = CursorLockMode.None;
+			Cursor.visible = true;
+			return;
+		}
+		else
+		{
+			Time.timeScale = 1.0f;
+			pauseMenu.SetActive(false);
+			Cursor.lockState = CursorLockMode.Locked;
+			Cursor.visible = false;
+		}
+	}
+
+	public void GotoMainMenu()
+	{
+		SceneManager.LoadScene(0);
+		Time.timeScale = 1.0f;
+	}
+
+    IEnumerator SkipLevel1()
 	{
 		yield return new WaitForSeconds(1.0f);
-		if (SceneManager.GetActiveScene().buildIndex == 0)
+		if (SceneManager.GetActiveScene().buildIndex == 1)
 		{
 			EventManager.RaiseEvent(EventType.UNLOCK_NEXT_LEVEL);
 		}
