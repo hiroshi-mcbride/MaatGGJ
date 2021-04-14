@@ -23,8 +23,16 @@ public class MouseHover : MonoBehaviour
 
     public void MouseOn(RectTransform _button)
     {
-        targetWidth = _button.sizeDelta.x;
-        Debug.Log("yes");
+        if (isActiveAndEnabled)
+        {
+            targetWidth = _button.sizeDelta.x;
+        }
+    }
+
+    public void OnClick()
+    {
+        targetWidth = 0f;
+        rectTransform.sizeDelta = new Vector2(0.0f, rectTransform.sizeDelta.y);
     }
 
     public void MouseOff()
