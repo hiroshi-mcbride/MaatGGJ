@@ -27,14 +27,18 @@ public class LiftBehaviour : MonoBehaviour
 	{
 		if (opening == true && closing == false)
 		{
-			leftDoor.transform.position = Vector3.MoveTowards(leftDoor.transform.position, leftDoorGoal.position, step * Time.deltaTime);
-			rightDoor.transform.position = Vector3.MoveTowards(rightDoor.transform.position, rightDoorGoal.position, step * Time.deltaTime);
+			//leftDoor.transform.position = Vector3.MoveTowards(leftDoor.transform.position, leftDoorGoal.position, step * Time.deltaTime);
+			//rightDoor.transform.position = Vector3.MoveTowards(rightDoor.transform.position, rightDoorGoal.position, step * Time.deltaTime);
+			leftDoor.transform.localScale = Vector3.MoveTowards(leftDoor.transform.localScale, new Vector3(0.0f, 1.0f, 1.0f), step * Time.deltaTime);
+			rightDoor.transform.localScale = Vector3.MoveTowards(rightDoor.transform.localScale, new Vector3(0.0f, 1.0f, 1.0f), step * Time.deltaTime);
 		}
 		if (opening == true && closing == true)
 		{
-			leftDoor.transform.position = Vector3.MoveTowards(leftDoor.transform.position, leftDoorStart.position, step * Time.deltaTime);
-			rightDoor.transform.position = Vector3.MoveTowards(rightDoor.transform.position, rightDoorStart.position, step * Time.deltaTime);
-			if (leftDoor.transform.position == leftDoorStart.position && rightDoor.transform.position == rightDoorStart.position)
+			//leftDoor.transform.position = Vector3.MoveTowards(leftDoor.transform.position, leftDoorStart.position, step * Time.deltaTime);
+			//rightDoor.transform.position = Vector3.MoveTowards(rightDoor.transform.position, rightDoorStart.position, step * Time.deltaTime);
+			leftDoor.transform.localScale = Vector3.MoveTowards(leftDoor.transform.localScale, Vector3.one, step * Time.deltaTime);
+			rightDoor.transform.localScale = Vector3.MoveTowards(rightDoor.transform.localScale, Vector3.one, step * Time.deltaTime);
+			if (leftDoor.transform.localScale == Vector3.one && rightDoor.transform.localScale == Vector3.one)
             {
 				EventManager.RaiseEvent(EventType.END_GAME);
 			}

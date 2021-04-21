@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     {
 		if (Input.GetKeyDown(KeyCode.Escape))
 		{
-			PauseGame();
+			PauseGame(); 
 		}
 	}
 

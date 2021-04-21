@@ -19,6 +19,14 @@ public class MouseHover : MonoBehaviour
     {
         Vector3 endWidth = new Vector2(targetWidth, rectTransform.sizeDelta.y);
         rectTransform.sizeDelta = Vector2.Lerp(rectTransform.sizeDelta, endWidth, 0.05f);
+        if (targetWidth==0f && rectTransform.rect.width <= 5.0f)
+        {
+            rectTransform.sizeDelta = new Vector2(0.0f, rectTransform.sizeDelta.y);
+        }
+        //else if (rectTransform.localScale.x >= targetWidth-0.1f)
+        //{
+        //    rectTransform.sizeDelta = new Vector2(targetWidth, rectTransform.sizeDelta.y);
+        //}
     }
 
     public void MouseOn(RectTransform _button)
