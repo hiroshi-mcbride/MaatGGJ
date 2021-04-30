@@ -24,15 +24,20 @@ public class PortalManager : MonoBehaviour
                 lights[i].GetComponent<Renderer>().material = onMaterial;
 
                 numActivated++;
-                if (numActivated == portals.Length && SceneManager.GetActiveScene().buildIndex == 0)
+    //            if (numActivated == portals.Length && SceneManager.GetActiveScene().buildIndex == 0)
+    //            {
+				//	EventManager.RaiseEvent(EventType.UNLOCK_NEXT_LEVEL);
+				//}
+				//if (numActivated == portals.Length && SceneManager.GetActiveScene().buildIndex == 1)
+				//{
+				//	EventManager.RaiseEvent(EventType.UNLOCK_LIFT);
+				//}
+
+                if (numActivated == portals.Length)
                 {
-					EventManager.RaiseEvent(EventType.UNLOCK_NEXT_LEVEL);
-				}
-				if (numActivated == portals.Length && SceneManager.GetActiveScene().buildIndex == 1)
-				{
-					EventManager.RaiseEvent(EventType.UNLOCK_LIFT);
-				}
-			}
+                    EventManager.RaiseEvent(EventType.UNLOCK_LIFT);
+                }
+            }
         }
     }
 

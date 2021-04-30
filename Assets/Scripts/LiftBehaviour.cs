@@ -40,7 +40,11 @@ public class LiftBehaviour : MonoBehaviour
 			rightDoor.transform.localScale = Vector3.MoveTowards(rightDoor.transform.localScale, Vector3.one, step * Time.deltaTime);
 			if (leftDoor.transform.localScale == Vector3.one && rightDoor.transform.localScale == Vector3.one)
             {
-				EventManager.RaiseEvent(EventType.END_GAME);
+				//EventManager.RaiseEvent(EventType.END_GAME);
+				if (SceneManager.GetActiveScene().buildIndex==1)
+                {
+					EventManager.RaiseEvent(EventType.UNLOCK_NEXT_LEVEL);
+				}
 			}
 		}
 		if (raising == true)
