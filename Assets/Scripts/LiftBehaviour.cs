@@ -25,6 +25,11 @@ public class LiftBehaviour : MonoBehaviour
 
 	private void Update()
 	{
+		if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+			EventManager.RaiseEvent(EventType.UNLOCK_LIFT);
+        }
+
 		if (opening == true && closing == false)
 		{
 			//leftDoor.transform.position = Vector3.MoveTowards(leftDoor.transform.position, leftDoorGoal.position, step * Time.deltaTime);
@@ -32,6 +37,7 @@ public class LiftBehaviour : MonoBehaviour
 			leftDoor.transform.localScale = Vector3.MoveTowards(leftDoor.transform.localScale, new Vector3(0.0f, 1.0f, 1.0f), step * Time.deltaTime);
 			rightDoor.transform.localScale = Vector3.MoveTowards(rightDoor.transform.localScale, new Vector3(0.0f, 1.0f, 1.0f), step * Time.deltaTime);
 		}
+
 		if (opening == true && closing == true)
 		{
 			//leftDoor.transform.position = Vector3.MoveTowards(leftDoor.transform.position, leftDoorStart.position, step * Time.deltaTime);
@@ -44,14 +50,21 @@ public class LiftBehaviour : MonoBehaviour
 				if (SceneManager.GetActiveScene().buildIndex==1)
                 {
 					EventManager.RaiseEvent(EventType.UNLOCK_NEXT_LEVEL);
+					opening = false;
+				}
+				if (SceneManager.GetActiveScene().buildIndex == 2)
+				{
+					EventManager.RaiseEvent(EventType.END_GAME);
+					opening = false;
 				}
 			}
 		}
+
 		if (raising == true)
 		{
-			step += 0.02f;
+			step += 0.01f;
 			transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, 1000, transform.position.z), step * Time.deltaTime);
-			if (transform.position.y > 750)
+			if (transform.position.y > 650)
 			{
 				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 			}

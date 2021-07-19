@@ -81,6 +81,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6034358829078193064
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2940345735741839221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.612265, y: 4.8585896, z: 0.17699224}
+  m_Center: {x: -0.9630696, y: 2.459766, z: 0}
 --- !u!1 &3327359068506050905
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,6 +194,33 @@ Transform:
   m_Father: {fileID: 6898837793987182730}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &3466318472601489837
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6454865966395380171}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4068373912626513877, guid: 1c32aa62db20aff4a85ce67f85ab7a4d, type: 3}
+--- !u!65 &1654504395741833570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483010025908661386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6716417, y: 4.905363, z: 0.16279702}
+  m_Center: {x: 0.9222119, y: 2.4185312, z: 0}
 --- !u!1 &6898837793839955913
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,8 +554,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2a3207c0300fe04b9d273d416f0cbc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftDoor: {fileID: 6898837794839771806}
-  rightDoor: {fileID: 6898837795191253590}
+  leftDoor: {fileID: 2940345735741839221}
+  rightDoor: {fileID: 6483010025908661386}
   leftDoorGoal: {fileID: 3327359068506050904}
   rightDoorGoal: {fileID: 3327359069820278183}
   leftDoorStart: {fileID: 0}
@@ -1226,6 +1266,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c32aa62db20aff4a85ce67f85ab7a4d, type: 3}
+--- !u!1 &6454865966395380171 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8513424388201257645, guid: 1c32aa62db20aff4a85ce67f85ab7a4d, type: 3}
+  m_PrefabInstance: {fileID: 5786694488334054552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6483010025908661386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 699800391101470738, guid: 1c32aa62db20aff4a85ce67f85ab7a4d, type: 3}
+  m_PrefabInstance: {fileID: 5786694488334054552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2940345735741839221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -540358131517578259, guid: 1c32aa62db20aff4a85ce67f85ab7a4d, type: 3}
+  m_PrefabInstance: {fileID: 5786694488334054552}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6324406856594871155 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1c32aa62db20aff4a85ce67f85ab7a4d, type: 3}
