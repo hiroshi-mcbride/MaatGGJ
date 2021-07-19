@@ -8,9 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PortalMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 82c1b3c583a20b0408e1064b765bf997, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 0194b3289ecb8c34884d9ead5c2eea7f, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_f02e794710bb427cb704778e9f6d6f7e:
+        m_Texture: {fileID: 2800000, guid: 87ce03bd447ccce48bbff87ac0d8355f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -59,6 +63,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2e9dbc2907794b2bb2fe02a5122fe301_Texture_1:
+        m_Texture: {fileID: 2800000, guid: a7efa7248ba9c054e94e2225a3554339, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_77499f7c0db94177ab9b373c9f83f8cc_Texture_1:
+        m_Texture: {fileID: 2800000, guid: d8a7837d27babc841ad1fe39dbe37521, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -76,10 +88,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_085f2586c5ff44579200a6aff7e67d87: 3.41
     - Vector1_10acff911c5e484e9e9a3e9224860751: 0
+    - Vector1_277dcacd9d13405c98cd48c7b49e2ede: 0.1
     - Vector1_44142f889a7b4601b6098ea24a85c25e: 0
     - Vector1_4792ccec6c734a9ba7beb26ce7615dc5: 0
     - Vector1_5813566dbc294d14946a0e6c6074fb24: 0
+    - Vector1_76695152589e43ebbbd5f7afb4eb9dce: 0.47
     - Vector1_7d2b27271f474afda883436dbfac0220: 0
     - _AlphaClip: 0
     - _Blend: 0
@@ -109,6 +124,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_25039c1e274d4bf987bd73d73a0643e5: {r: 0.2991914, g: 0, b: 0.3490566, a: 0}
+    - Color_c4097cd0e485462bb383048643804613: {r: 1.5215687, g: 1.5529412, b: 1.5058824, a: 1}
     - Color_dd5ab484d9ad4d498f33cb371bf33c82: {r: 1, g: 1, b: 1, a: 0}
     - Color_f354e445bc3c4e85b5a158a2e0a1c3c0: {r: 0.48624745, g: 0.29307583, b: 0.6981132, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
