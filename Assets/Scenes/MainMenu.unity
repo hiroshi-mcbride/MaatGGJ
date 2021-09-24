@@ -766,10 +766,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141047571}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal2
@@ -1228,10 +1224,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799752313}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3
@@ -4553,10 +4545,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3 (2)
@@ -4820,10 +4808,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799752313}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1 (2)
@@ -8710,10 +8694,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1 (2)
@@ -8852,10 +8832,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141047571}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1 (2)
@@ -8913,10 +8889,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141047571}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3 (3)
@@ -10175,10 +10147,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3 (3)
@@ -10984,10 +10952,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141047571}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3 (1)
@@ -12352,10 +12316,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799752313}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3 (3)
@@ -12962,10 +12922,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799752313}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1 (3)
@@ -17112,10 +17068,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799752313}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1 (1)
@@ -17521,10 +17473,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3
@@ -18893,10 +18841,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1 (1)
@@ -21430,10 +21374,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141047571}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3
@@ -23916,10 +23856,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141047571}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1 (1)
@@ -26044,10 +25980,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799752313}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3 (1)
@@ -26304,10 +26236,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799752313}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3 (2)
@@ -29096,10 +29024,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141047571}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3 (2)
@@ -31457,10 +31381,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141047571}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1 (3)
@@ -35739,10 +35659,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141047571}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1
@@ -37188,10 +37104,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141047571}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal2 (1)
@@ -37977,10 +37889,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799752313}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal2
@@ -40681,10 +40589,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1 (3)
@@ -41116,10 +41020,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1
@@ -41885,10 +41785,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal2 (1)
@@ -46461,10 +46357,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799752313}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal2 (1)
@@ -49903,10 +49795,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799752313}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal1
@@ -51800,10 +51688,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3 (4)
@@ -53316,10 +53200,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal3 (1)
@@ -56735,10 +56615,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 757239924}
     m_Modifications:
-    - target: {fileID: 619501247006532506, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
-      propertyPath: destination
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8562068972153109969, guid: 727948f95e9b3f2459b5a602b59edb6d, type: 3}
       propertyPath: m_Name
       value: Portal2
