@@ -80,6 +80,7 @@ public class LiftBehaviour : MonoBehaviour
 		else if (raising == false)
 		{
 			StopRaisingLift();
+			
 		}
 	}
 
@@ -94,7 +95,7 @@ public class LiftBehaviour : MonoBehaviour
 		AudioManager.Instance.PlayMusic(AudioType.MUSIC_ASCEND);
 		step = 1;
 		Player.Instance.transform.SetParent(transform);
-		Player.Instance.charCtrl.enabled = false;
+		//Player.Instance.charCtrl.enabled = false;
 		raising = true;
 	}
 
