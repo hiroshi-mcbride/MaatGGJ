@@ -10,7 +10,7 @@ public class InteractionTarget : MonoBehaviour
 	private GameObject lastTarget;
 	public LayerMask lm;
 
-	private void Update()
+    private void Update()
 	{
 		RaycastHit hit;
 		//Cast a ray and scan for an Interactable target
@@ -24,6 +24,7 @@ public class InteractionTarget : MonoBehaviour
 				if (i.activeInHierarchy)
 				{
 					target = i;
+					//Debug.Log(target);
 				}
 
 			}
