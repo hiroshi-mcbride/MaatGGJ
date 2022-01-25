@@ -73,13 +73,13 @@ public class GameManager : MonoBehaviour
 		Time.timeScale = 1.0f;
 	}
 
-    IEnumerator SkipLevel1()
-	{
-		yield return new WaitForSeconds(1.0f);
-		if (SceneManager.GetActiveScene().buildIndex == 1)
-		{
-			EventManager.RaiseEvent(EventType.UNLOCK_NEXT_LEVEL);
-		}
-	}
+ //   IEnumerator SkipLevel1()
+	//{
+	//	yield return new WaitForSeconds(1.0f);
+	//	if (SceneManager.GetActiveScene().buildIndex == 1)
+	//	{
+	//		EventManager.RaiseEvent(EventType.UNLOCK_NEXT_LEVEL);
+	//	}
+	//}
 	
 }
