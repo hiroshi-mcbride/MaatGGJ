@@ -26360,6 +26360,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6505429138351360948, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6505429138351360948, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6505429138351360948, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6505429138836596596, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
       propertyPath: eventType
       value: 0
@@ -26411,6 +26423,18 @@ PrefabInstance:
     - target: {fileID: 6505429138836596599, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6505429140372300312, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontSize
+      value: 19.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6505429140372300312, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6505429140372300312, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 19.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
@@ -32576,6 +32600,18 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2403889}
+    - target: {fileID: 6505429138351360948, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6505429138351360948, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6505429138351360948, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6505429138836596598, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
       propertyPath: m_Name
       value: UpgradeMachine
@@ -32623,6 +32659,18 @@ PrefabInstance:
     - target: {fileID: 6505429138836596599, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6505429140372300312, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontSize
+      value: 19.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6505429140372300312, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6505429140372300312, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 19.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e2e922767dcc4440b0be84334e31f36, type: 3}
