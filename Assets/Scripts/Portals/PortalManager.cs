@@ -35,7 +35,7 @@ public class PortalManager : MonoBehaviour
 
                 if (numActivated == portals.Length)
                 {
-                    EventManager.RaiseEvent(EventType.UNLOCK_LIFT);
+                    EventManager.RaiseEvent(EventType.LIFT_UNLOCKED);
                 }
             }
         }

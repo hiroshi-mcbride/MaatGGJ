@@ -58,13 +58,11 @@ public class GameManager : MonoBehaviour
 			Cursor.visible = true;
 			return;
 		}
-		else
-		{
-			Time.timeScale = 1.0f;
-			pauseMenu.SetActive(false);
-			Cursor.lockState = CursorLockMode.Locked;
-			Cursor.visible = false;
-		}
+
+		Time.timeScale = 1.0f;
+		pauseMenu.SetActive(false);
+		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = false;
 	}
 
 	public void GotoMainMenu()
