@@ -4,6 +4,7 @@ public enum AudioType
     MUSIC_STAIRS,
     MUSIC_ASCEND,
     MUSIC_UNLOCK,
+    MUSIC_ENDING,
     SFX_PORTAL_IDLE,
     SFX_PORTAL_USE,
     SFX_PICKUP,

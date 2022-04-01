@@ -47,6 +47,7 @@ MonoBehaviour:
   stairsMusicRef: event:/Stairs Music
   ascendMusicRef: event:/Ascend Music
   unlockMusicRef: event:/Unlock
+  endingMusicRef: event:/Ending Music
   stairsTurningSFXRef: event:/Stairs Moving
   interactSFXRef: event:/Interact
   pickupSFXRef: event:/Pickup

@@ -12,6 +12,7 @@ public class AudioManager : MonoBehaviour
     [FMODUnity.EventRef] public string stairsMusicRef = "";
     [FMODUnity.EventRef] public string ascendMusicRef = "";
     [FMODUnity.EventRef] public string unlockMusicRef = "";
+    [FMODUnity.EventRef] public string endingMusicRef = "";
 
     [Header("SFX")]
     [FMODUnity.EventRef] public string stairsTurningSFXRef = "";
@@ -22,6 +23,7 @@ public class AudioManager : MonoBehaviour
     private EventInstance stairsMusic;
     private EventInstance ascendMusic;
     private EventInstance unlockMusic;
+    private EventInstance endingMusic;
 
     [HideInInspector] public EventInstance stairsTurningSFX;
     [HideInInspector] public EventInstance interactSFX;
@@ -79,6 +81,7 @@ public class AudioManager : MonoBehaviour
         stairsMusic = FMODUnity.RuntimeManager.CreateInstance(stairsMusicRef);
         ascendMusic = FMODUnity.RuntimeManager.CreateInstance(ascendMusicRef);
         unlockMusic = FMODUnity.RuntimeManager.CreateInstance(unlockMusicRef);
+        endingMusic = FMODUnity.RuntimeManager.CreateInstance(endingMusicRef);
 
         stairsTurningSFX = FMODUnity.RuntimeManager.CreateInstance(stairsTurningSFXRef);
         interactSFX = FMODUnity.RuntimeManager.CreateInstance(interactSFXRef);
@@ -89,7 +92,8 @@ public class AudioManager : MonoBehaviour
             {AudioType.MUSIC_EXPLORE, explorationMusic },
             {AudioType.MUSIC_STAIRS, stairsMusic },
             {AudioType.MUSIC_ASCEND, ascendMusic },
-            {AudioType.MUSIC_UNLOCK, unlockMusic }
+            {AudioType.MUSIC_UNLOCK, unlockMusic },
+            {AudioType.MUSIC_ENDING, endingMusic }
         };
 
         sfxEvents = new Dictionary<AudioType, EventInstance>()
@@ -124,7 +128,7 @@ public class AudioManager : MonoBehaviour
 
     public void StartFade(AudioType _track, bool _in)
     {
-        
+
         if (!IsPlaying(_track))
         {
             if (_in && !IsPlaying(AudioType.MUSIC_ASCEND) && !IsPlaying(AudioType.MUSIC_STAIRS))
@@ -134,11 +138,11 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
-        
+
 
         coroutine = FadeMusic(_track, _in);
 
-        if ((IsPlaying(AudioType.MUSIC_ASCEND) || IsPlaying(AudioType.MUSIC_STAIRS)) && _in)
+        if ((IsPlaying(AudioType.MUSIC_ASCEND) || IsPlaying(AudioType.MUSIC_ENDING) || IsPlaying(AudioType.MUSIC_STAIRS)) && _in)
         {
             Debug.Log("here!");
             if(coroutineRunning)

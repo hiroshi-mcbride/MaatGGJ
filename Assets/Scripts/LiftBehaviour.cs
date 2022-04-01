@@ -41,7 +41,7 @@ public class LiftBehaviour : MonoBehaviour
 		closeCoroutine = CloseDoors(3f);
 		EventManager.AddListener(EventType.LIFT_UNLOCKED, OpenLift);
 		EventManager.AddListener(EventType.UNLOCK_NEXT_LEVEL, RaiseLift);
-		EventManager.AddListener(EventType.END_GAME, RaiseLift);
+		EventManager.AddListener(EventType.END_GAME, EndGame);
 		levelInProgress = true;
 		if (SceneManager.GetActiveScene().buildIndex == 2)
 		{
@@ -170,10 +170,10 @@ public class LiftBehaviour : MonoBehaviour
 
 	private void EndGame()
     {
-		// AudioManager.Instance.PlayMusic(AudioType.MUSIC_ENDING);
+		AudioManager.Instance.PlayMusic(AudioType.MUSIC_ENDING);
 		step = 1;
 		raising = true;
-		// StartCoroutine(FadeInCredits);
+		//StartCoroutine(FadeInCredits);
 	}
 
 	private IEnumerator FadeInCredits()
