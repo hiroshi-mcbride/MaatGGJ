@@ -56,7 +56,7 @@ public class LiftBehaviour : MonoBehaviour
 	private void Update()
 	{
 
-		if (Input.GetKeyDown(KeyCode.T)) { EventManager.RaiseEvent(EventType.LIFT_UNLOCKED); }
+		//if (Input.GetKeyDown(KeyCode.T)) { EventManager.RaiseEvent(EventType.LIFT_UNLOCKED); }
 		//if (Input.GetKeyDown(KeyCode.G)) { StartCoroutine(closeCoroutine); }
         if (opening && !closing)
         {

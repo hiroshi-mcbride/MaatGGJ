@@ -36,7 +36,21 @@ public class AudioManager : MonoBehaviour
     bool coroutineRunning = false;
     bool inOrOut;
     bool musicIsPlaying = false;
-    bool stairsPlayed = false;
+    bool StairsFinished
+    {
+        get { return stairsFinished; }
+        set
+        {
+            if (!stairsFinished && value)
+            {
+
+                EventManager.RaiseEvent(EventType.STAIRS_MUSIC_FINISHED);
+                stairsFinished = value;
+            }
+        }
+    }
+    bool stairsFinished = false;
+    int stairsPlayCount = 0;
     bool exploreIsPlaying = false;
     IEnumerator coroutine;
 
@@ -122,7 +136,16 @@ public class AudioManager : MonoBehaviour
         if (bankLoaded)
         {
             musicEvents[AudioType.MUSIC_EXPLORE].setParameterByID(fadeParameterId, faderLevel);
-
+            
+            if (stairsPlayCount > 0)
+            {
+                FMOD.Studio.PLAYBACK_STATE state;
+                stairsMusic.getPlaybackState(out state);
+                if (state == PLAYBACK_STATE.STOPPED)
+                {
+                    StairsFinished = true;
+                }
+            }
         }
     }
 
@@ -131,7 +154,7 @@ public class AudioManager : MonoBehaviour
 
         if (!IsPlaying(_track))
         {
-            if (_in && !IsPlaying(AudioType.MUSIC_ASCEND) && !IsPlaying(AudioType.MUSIC_STAIRS))
+            if (_in && !IsPlaying(AudioType.MUSIC_ASCEND) && !IsPlaying(AudioType.MUSIC_ENDING) && !IsPlaying(AudioType.MUSIC_STAIRS))
             {
                 PlayMusic(_track);
             }
@@ -187,14 +210,15 @@ public class AudioManager : MonoBehaviour
 
             if(_track == AudioType.MUSIC_STAIRS)
             {
-                if (stairsPlayed)
+                if (stairsPlayCount > 0)
                 {
                     return;
                 }
-                stairsPlayed = true;
+                stairsPlayCount++;
+                //StairsPlayed = true;
             }
 
-            if(_track == AudioType.MUSIC_ASCEND)
+            if(_track == AudioType.MUSIC_ASCEND || _track == AudioType.MUSIC_ENDING)
             {
                 StopMusic(AudioType.MUSIC_STAIRS);
                 StopMusic(AudioType.MUSIC_EXPLORE);

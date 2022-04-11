@@ -12,6 +12,7 @@ public class InteractionTarget : MonoBehaviour
 
     private void Update()
 	{
+		target = null;
 		RaycastHit hit;
 		//Cast a ray and scan for an Interactable target
 		if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, raycastDistance, lm))
@@ -19,18 +20,13 @@ public class InteractionTarget : MonoBehaviour
 			//Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
 			GameObject i = hit.transform.gameObject;
 
-			if (i != null && lastTarget != i)
+			if (i != null)
 			{
 				if (i.activeInHierarchy)
 				{
 					target = i;
 					//Debug.Log(target);
 				}
-
-			}
-			else if (lastTarget != i)
-			{
-				target = null;
 			}
 		}
 	}

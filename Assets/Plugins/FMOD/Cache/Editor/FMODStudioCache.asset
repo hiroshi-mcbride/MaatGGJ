@@ -123,7 +123,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -1767176944671035291}
+  - {fileID: -4032173327142965492}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -216,6 +216,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 236512
+--- !u!114 &-5367447647086818117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ending Music
+  m_EditorClassIdentifier: 
+  Path: event:/Ending Music
+  guid: f81e083aa95f8a4e9fe4d61907d62830
+  Banks:
+  - {fileID: 4034046831399937334}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 49475
 --- !u!114 &-5356499566412762475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,6 +396,26 @@ MonoBehaviour:
   ID:
     data1: 2152571517
     data2: 226571647
+  Exists: 1
+--- !u!114 &-4032173327142965492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explore Music/VolumeFade
+  m_EditorClassIdentifier: 
+  Name: VolumeFade
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &-4022394850196449999
 MonoBehaviour:
@@ -712,6 +755,7 @@ MonoBehaviour:
   - {fileID: -3926715358529557062}
   - {fileID: 7838087378745659833}
   - {fileID: -5566577510430453520}
+  - {fileID: -5367447647086818117}
   EditorParameters:
   - {fileID: 5063897165940370472}
   - {fileID: -4022394850196449999}
@@ -719,7 +763,7 @@ MonoBehaviour:
   - {fileID: 4034046831399937334}
   StringsBanks:
   - {fileID: 7641370987127893884}
-  stringsBankWriteTime: 637707638764793310
+  stringsBankWriteTime: 637844228053860426
   cacheVersion: 6
 --- !u!114 &24023871980391220
 MonoBehaviour:
@@ -805,7 +849,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
-  MaxDistance: 30
+  MaxDistance: 45
   Length: 0
 --- !u!114 &829339828814963679
 MonoBehaviour:
@@ -887,6 +931,26 @@ MonoBehaviour:
     data1: 3337596417
     data2: 262581029
   Exists: 0
+--- !u!114 &1941322059907101440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explore Music/VolumeFade
+  m_EditorClassIdentifier: 
+  Name: VolumeFade
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &2274540389179114878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,7 +973,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 15751
+  Length: 19000
 --- !u!114 &2485360625587082886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,7 +1068,7 @@ MonoBehaviour:
   Path: FMOD/MaatGGJ/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637801842003868691
+  lastModified: 637844228053830398
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1031,6 +1095,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &4329894514056460295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explore Music/VolumeFade
+  m_EditorClassIdentifier: 
+  Name: VolumeFade
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &4353175451707073709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1157,6 +1241,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &5647816990378251711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explore Music/VolumeFade
+  m_EditorClassIdentifier: 
+  Name: VolumeFade
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &5738295874022298150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1178,6 +1282,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1438
   Exists: 1
+--- !u!114 &5769059912682980545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explore Music/VolumeFade
+  m_EditorClassIdentifier: 
+  Name: VolumeFade
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &5833250074310440019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1224,6 +1348,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &7256577424867220188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explore Music/VolumeFade
+  m_EditorClassIdentifier: 
+  Name: VolumeFade
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &7635665186436697580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1262,11 +1406,11 @@ MonoBehaviour:
   Path: FMOD/MaatGGJ/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637707638764793310
+  lastModified: 637844228053860426
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1438
+    Value: 1492
   Exists: 1
 --- !u!114 &7838087378745659833
 MonoBehaviour:

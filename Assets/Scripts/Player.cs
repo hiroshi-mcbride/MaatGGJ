@@ -70,15 +70,15 @@ public class Player : MonoBehaviour
 		rot.z = 0;
 		transform.rotation = rot;
 
-		//running
-		if (Input.GetButton("Fire3") == true)
-		{
-			speed = moveSpeed * 2;
-		}
-		else
-		{
-			speed = moveSpeed;
-		}
+		////running
+		//if (Input.GetButton("Fire3") == true)
+		//{
+		//	speed = moveSpeed * 2;
+		//}
+		//else
+		//{
+		//	speed = moveSpeed;
+		//}
 
 		//ground check
 		isGrounded = (Physics.CheckBox(new Vector3(groundCheck.position.x - .5f, groundCheck.position.y, groundCheck.position.z), new Vector3(groundDistance, 0.3f, groundDistance), Quaternion.identity, groundMask) &&
@@ -138,6 +138,7 @@ public class Player : MonoBehaviour
 				target.GetComponent<InvestResource>().Invest();
 				AudioManager.Instance.interactSFX.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(target.gameObject));
 				AudioManager.Instance.PlaySFX(AudioType.SFX_INTERACT);
+				target = null;
 			}
 		}
 	}

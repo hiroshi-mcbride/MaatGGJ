@@ -33,8 +33,14 @@ public class GameManager : MonoBehaviour
 		{
 			Destroy(gameObject);
 		}
-
-		rm = new ResourceManager();
+		if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+			rm = new ResourceManager(4);
+        }
+		else if (SceneManager.GetActiveScene().buildIndex == 2)
+		{
+			rm = new ResourceManager(2);
+		}
 		player = Player.Instance;
 
 		//StartCoroutine(SkipLevel1());

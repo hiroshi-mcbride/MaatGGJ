@@ -6437,13 +6437,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155105822}
-  m_LocalRotation: {x: -0, y: -0.9951707, z: -0, w: 0.09816011}
-  m_LocalPosition: {x: 152.9, y: 111.649994, z: 21}
+  m_LocalRotation: {x: -0, y: -0.9824258, z: -0, w: 0.18665347}
+  m_LocalPosition: {x: 153.2, y: 111.06, z: 21.75}
   m_LocalScale: {x: 10, y: 10, z: 20}
   m_Children: []
   m_Father: {fileID: 61917715}
   m_RootOrder: 122
-  m_LocalEulerAnglesHint: {x: 0, y: -168.734, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -158.485, z: 0}
 --- !u!65 &155105824
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21616,7 +21616,7 @@ MonoBehaviour:
   - {fileID: 1629583047}
   - {fileID: 125331525}
   - {fileID: 1084110785}
-  onMaterial: {fileID: 2100000, guid: 6fd206b8e60917d4993e70a0f3e6c049, type: 2}
+  onMaterial: {fileID: 2100000, guid: 53a96d33e0be6f84393a1a78ce3a274d, type: 2}
 --- !u!1 &560447547
 GameObject:
   m_ObjectHideFlags: 0
@@ -25901,6 +25901,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1195301587680302893, guid: 77752494dcc18d14588bf3c0a7ff5583, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195301587941841335, guid: 77752494dcc18d14588bf3c0a7ff5583, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1195301588403622546, guid: 77752494dcc18d14588bf3c0a7ff5583, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -25948,6 +25956,14 @@ PrefabInstance:
     - target: {fileID: 1195301588403622547, guid: 77752494dcc18d14588bf3c0a7ff5583, type: 3}
       propertyPath: m_Name
       value: AudioTriggers
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195301588474161708, guid: 77752494dcc18d14588bf3c0a7ff5583, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195301588700366779, guid: 77752494dcc18d14588bf3c0a7ff5583, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77752494dcc18d14588bf3c0a7ff5583, type: 3}
@@ -26161,7 +26177,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -67.257416}
+  m_AnchoredPosition: {x: 0, y: -67.257324}
   m_SizeDelta: {x: -1397.8125, y: -957.4851}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &678549209
@@ -45569,7 +45585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227128544}
   m_LocalRotation: {x: -0, y: -0.35587704, z: -0, w: 0.93453276}
-  m_LocalPosition: {x: 255.11, y: 110.18, z: -11.45}
+  m_LocalPosition: {x: 254.64, y: 110.18, z: -11.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1464535190}
@@ -68862,7 +68878,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.2999878}
+  m_AnchoredPosition: {x: 0, y: 0.30004883}
   m_SizeDelta: {x: -1397.8125, y: -978.9703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1804188158
@@ -74062,7 +74078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6898837793987182730, guid: 2234ecad2a87cf343aa746026e66656a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -150
+      value: -113.2
       objectReference: {fileID: 0}
     - target: {fileID: 6898837793987182730, guid: 2234ecad2a87cf343aa746026e66656a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -77309,29 +77325,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2540817853737639666, guid: 61309021872809f43b60622aa6c5bb3a, type: 3}
---- !u!114 &2022193726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022193720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: Player
-  Event: event:/Pickup
-  PlayEvent: 3
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!1 &2024231726
 GameObject:
   m_ObjectHideFlags: 0

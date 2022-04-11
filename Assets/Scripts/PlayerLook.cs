@@ -39,7 +39,7 @@ public class PlayerLook : MonoBehaviour
         camera = GetComponent<Camera>();
 
         LockCursor();
-        mouseSensitivity = PlayerPrefs.GetFloat("Mouse Sensitivity");
+        //mouseSensitivity = PlayerPrefs.GetFloat("Mouse Sensitivity");
         EventManager.AddListener(EventType.SENSITIVITY_CHANGED, SetSensitivity);
     }
 

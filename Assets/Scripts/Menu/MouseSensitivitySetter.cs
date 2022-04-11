@@ -13,13 +13,14 @@ public class MouseSensitivitySetter : MonoBehaviour
         {
             slider.value = PlayerPrefs.GetFloat("Mouse Sensitivity");
         }
+        else
+        {
+            slider.value = 200f;
+        }
     }
     public void SetSensitivity()
     {
         PlayerPrefs.SetFloat("Mouse Sensitivity", slider.value);
-        if (PlayerLook.Instance!=null)
-        {
-            EventManager.RaiseEvent(EventType.SENSITIVITY_CHANGED);
-        }
+        EventManager.RaiseEvent(EventType.SENSITIVITY_CHANGED);
     }
 }
