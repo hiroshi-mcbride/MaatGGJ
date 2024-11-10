@@ -83,6 +83,8 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
+        
     }
 
     private IEnumerator Start()
@@ -90,7 +92,7 @@ public class AudioManager : MonoBehaviour
 
         yield return new WaitUntil(() => FMODUnity.RuntimeManager.HasBankLoaded("Master"));
         bankLoaded = true;
-
+        
         explorationMusic = FMODUnity.RuntimeManager.CreateInstance(explorationMusicRef);
         stairsMusic = FMODUnity.RuntimeManager.CreateInstance(stairsMusicRef);
         ascendMusic = FMODUnity.RuntimeManager.CreateInstance(ascendMusicRef);
@@ -128,7 +130,7 @@ public class AudioManager : MonoBehaviour
         fadeParameterId = fadeParameterDescription.id;
         float currentFadeValue;
         musicEvents[AudioType.MUSIC_EXPLORE].getParameterByID(fadeParameterId, out currentFadeValue);
-
+        
     }
 
     private void Update()

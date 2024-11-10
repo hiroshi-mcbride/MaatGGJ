@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -41,6 +42,14 @@ public class MenuManager : MonoBehaviour
             menus.Add(m.menuType, m);
         }
         OpenMenu(MenuType.Main);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            GotoScene(1);
+        }
     }
 
     public void OpenMenu(int menuType)

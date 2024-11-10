@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class EndGame : MonoBehaviour
 {
     float fadeTime = 6f;
-    
+
+    private Image img;
 
     private void Awake()
     {
         EventManager.AddListener(EventType.END_GAME, StartFadeIn);
+        img = GetComponent<Image>();
     }
     public void StartFadeIn()
     {
@@ -19,12 +21,12 @@ public class EndGame : MonoBehaviour
 
     IEnumerator Fader()
     {
-        Color c = GetComponent<Image>().color;
-        float alpha = GetComponent<Image>().color.a;
+        Color c = img.color;
+        float alpha = img.color.a;
         while (alpha < 1f)
         {
             c.a += 0.01f / fadeTime;
-            GetComponent<Image>().color = c;
+            img.color = c;
             yield return new WaitForSeconds(0.01f);
             alpha = c.a;
         }
@@ -41,7 +43,7 @@ public class EndGame : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && GetComponent<Image>().color.a>=1.0f)
+        if (Input.GetKeyDown(KeyCode.Escape) && img.color.a>=1.0f)
         {
             Application.Quit();
         }

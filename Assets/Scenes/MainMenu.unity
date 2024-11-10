@@ -39692,6 +39692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1512569107}
   - component: {fileID: 1512569108}
+  - component: {fileID: 1512569109}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -39738,6 +39739,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuType: 0
+--- !u!114 &1512569109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512569106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307ae7d7134de3b44b43c4bc0b798d9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1517261351
 GameObject:
   m_ObjectHideFlags: 0
@@ -58096,6 +58109,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042201148}
     m_Modifications:
+    - target: {fileID: 3457168351996356679, guid: 141a5672aabfe4e4587f7ab4960c84c1, type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3457168352596138280, guid: 141a5672aabfe4e4587f7ab4960c84c1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -58324,6 +58341,10 @@ PrefabInstance:
     - target: {fileID: 6914741413586274301, guid: fd4e64feea20be04396693467ec58f15, type: 3}
       propertyPath: m_Name
       value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914741413586274301, guid: fd4e64feea20be04396693467ec58f15, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4e64feea20be04396693467ec58f15, type: 3}
